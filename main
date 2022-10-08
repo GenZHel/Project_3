@@ -14,7 +14,6 @@ class Dot:
 class BoardException(Exception):
     pass
 
-
 class BoardOutException(BoardException):
     def __str__(self):
         return "Выстрел за доску!"
